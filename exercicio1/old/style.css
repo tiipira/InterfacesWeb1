@@ -1,0 +1,133 @@
+
+/*CSS reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    list-style-type: 
+    none;
+    background-color: seashell;
+
+}
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    background-color: rgb(80, 10, 10);
+}
+
+.cabecalho-imagem{
+    height: 40px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 10px;
+}
+
+.conteudo-principal-titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: orangered;
+}
+
+.conteudo-principal-subtitulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(80, 10, 10);
+}
+
+
+.conteudo-secundario{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.conteudo-secundario-imagem {
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.rodape{
+    padding: 5px;
+    text-align: center;
+}
+
+.rodape-paragrafo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(80, 10, 10);
+}
+
+.fruta-conteudo{
+   padding: 5px;
+}
+
+.fruta-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.fruta-item-imagem{
+    height: 200px;
+}
+.fruta-item-escrito{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.fruta-item-titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(80, 10, 10);
+}
+
+.fruta-item-paragrafo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(80, 10, 10);
+}

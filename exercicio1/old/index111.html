@@ -7,21 +7,12 @@
         Ex. img > foto1.jpg
                   foto2.jpg
                   foto3.png
+    
+
+
 -->
 <!DOCTYPE html>
-
-<!-- 
-    Utilizamos lang (language ou língua) principal do documento como 'pt-br' (português do Brasil).
--->
 <html lang="pt-br">
-
-
-<!-- 
-    Em head, além das tags já inseridas automaticamente, inserimos a linha:
-    <link rel="stylesheet" type="text/css" href="style.css">
-    Você pode usar a abreviação Emmet 'link:css' e adicionar o atributo 'type="text/css"'.
-    Além disso, escolha o título da sua página.
--->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,19 +20,6 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Exercício 1</title>
 </head>
-
-<!--
-    Utilizamos alguns elementos semânticos do HTML, ou seja, tags que têm significados:
-    - header = cabeçalho;
-    - nav = navegação;
-    - section = seção;
-    - footer = rodapé.
-
-    No body, iremos identificar as tags com o uso de 'classes' - que são formas de agrupar elementos com as mesmas funções e propriedades:
-    - usar o atributo 'class';
-    - dar nomes fáceis de lembrar, em letras minúsculas e sem espaço.
--->
-
 <body>
     <header class="cabecalho">
         <p class="cabecalho-logo">F.</p>
@@ -50,16 +28,8 @@
             <a class="cabecalho-menu-item" href="">Infos</a>
         </nav>
     </header>
-    <!--
-        Na primeira parte ou seção, temos dois elementos: logo e menu.
-        O menu possui, por sua vez, 2 elementos: home e infos.
-    -->
     <section class="conteudo-principal">
         <h1 class="conteudo-principal-titulo">Olá!</h1>
-        <!-- 
-            Para criar textos aleatórios (quando ainda não temos o conteúdo final a ser publicado), usamos a abreviação Emmet 'Lorem' seguida do número de palavras desejadas.
-            Nesse exemplo, usamos 'Lorem10'.
-        -->
         <p class="conteudo-principal-paragrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, aspernatur?    </p>
     </section>
     <section class="conteudo-secundario">

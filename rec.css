@@ -1,0 +1,163 @@
+/* CSS reset ---- NÃO ALTERAR! --- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    list-style-type: 
+    none;
+}
+/* --------------------------- */
+
+/* ======================================= */
+/* ======= TRABALHO DE RECUPERAÇÃO ======= */
+/* ======================================= */
+/*
+= 1) Escolha uma paleta de cores. Use, se precisar, os sites:
+=     COOLERS: https://coolors.co/palettes/trending
+=     ADOBE COLORS: https://color.adobe.com/pt/create/color-wheel
+=
+= 2) Coloque os valores de cores escolhidos nos campos corretos;
+=
+= 3) Escolha um valor quando é dada uma opção.
+=
+= 4) Quando o valor é unidade de tamanho/distância (em pixel),
+=    modifique até que o resultado seja da sua preferência.
+=
+= 5) Ao final, mostre seu código e o resultado no navegador
+=    para a prof. e dê uma explicação sobre suas escolhas.
+=
+*/
+
+
+.body{
+    background-color:   ; /* Escolha uma cor */
+}
+
+
+.cabecalho{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color:   ; /* Escolha uma cor */   
+    padding-left:       ; /* Escolha um tamanho em pixel. Ex: 10px */
+    padding-right:      ; /* Escolha um tamanho em pixel. Ex: 10px */
+    
+}
+
+
+.cabecalho-titulo{
+    color:          ;/* Escolha uma cor */
+    font-weight:    ; /* Escolha 400 (normal) ou 700 (negrito) */
+    font-size:      ; /* Escolha um tamanho em pixel. Ex: 10px */
+    font-family:    ; /* Escolha uma família de fontes */
+}
+
+
+.cabecalho-menu{
+    display: flex;
+
+    gap:            ; /* Escolha um tamanho em pixel. Ex: 10px */
+    font-family:    ; /* Escolha uma família de fontes */
+}
+
+
+.cabecalho-menu-item{
+    color:          ;  /* Escolha uma cor */
+}
+
+
+.conteudo-principal{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top:    ; /* Escolha um tamanho em pixel. Ex: 10px */
+    padding-bottom: ; /* Escolha um tamanho em pixel. Ex: 10px */
+   
+}
+
+
+.conteudo-principal-titulo{
+    color:          ; /* Escolha uma cor */
+    font-weight:    ; /* Escolha 400 (normal) ou 700 (negrito) */
+    font-size:      ; /* Escolha um tamanho em pixel. Ex: 10px */
+    line-height:    ; /* Escolha um tamanho em pixel. Ex: 10px */
+    font-family:    ; /* Escolha uma família de fontes */
+    padding-bottom: ; /* Escolha um tamanho em pixel. Ex: 10px */
+}
+
+
+.conteudo-principal-subtitulo{
+    color:          ; /* Escolha uma cor */
+    font-weight:    ; /* Escolha 400 (normal) ou 700 (negrito) */
+    font-size:      ; /* Escolha um tamanho em pixel. Ex: 10px */
+    font-family:    ; /* Escolha uma família de fontes */
+    padding-bottom: ; /* Escolha um tamanho em pixel. Ex: 10px */
+}
+
+
+.conteudo-principal-imagem{
+    display: block;
+    margin: 0 auto;
+
+    padding-top:    ; /* Escolha um tamanho em pixel. Ex: 10px */
+    width:          ; /* Escolha um tamanho em pixel. Ex: 10px */
+
+}
+
+.conteudo-secundario{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color:   ; /* Escolha uma cor */
+    padding-left:       ; /* Escolha um tamanho em pixel. Ex: 10px */
+    padding-right:      ; /* Escolha um tamanho em pixel. Ex: 10px */
+    padding-top:        ; /* Escolha um tamanho em pixel. Ex: 10px */
+    padding-bottom:     ; /* Escolha um tamanho em pixel. Ex: 10px */
+
+}
+
+.conteudo-secundario-titulo{
+    color:              ; /* Escolha uma cor */
+    font-weight:        ; /* Escolha 400 (normal) ou 700 (negrito) */
+    font-size:          ; /* Escolha um tamanho em pixel. Ex: 10px */
+    font-family:        ; /* Escolha uma cor */
+    padding-bottom:     ; /* Escolha um tamanho em pixel. Ex: 10px */
+}
+
+
+
+.conteudo-secundario-paragrafo{
+    color:          ; /* Escolha uma cor */
+    font-weight:    ; /* Escolha 400 (normal) ou 700 (negrito) */
+    font-size:      ; /* Escolha um tamanho em pixel. Ex: 10px */
+    font-family:    ; /* Escolha uma família de fontes */
+    padding-bottom: ; /* Escolha um tamanho em pixel. Ex: 10px */;
+}
+
+.rodape{
+    background-color:   ; /* Escolha uma cor */
+    padding-top:        ; /* Escolha um tamanho em pixel. Ex: 10px */
+    padding-bottom:     ; /* Escolha um tamanho em pixel. Ex: 10px */
+}
+
+.rodape-paragrafo{
+    font-style: italic;
+
+    color:          ; /* Escolha uma cor */
+    text-align:     ; /* Escolha center (centro), left (esquerda) ou right (direita) */
+    font-size:      ; /* Escolha um tamanho em pixel. Ex: 10px */
+    font-family:    ; /* Escolha uma família de fontes */
